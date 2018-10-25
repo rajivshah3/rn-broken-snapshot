@@ -45,5 +45,11 @@ exports[`when rendering should match the snapshot 1`] = `
     Press Cmd+R to reload,
 Cmd+D or shake for dev menu
   </Component>
+  <Component>
+    <Button
+      title="Press me!"
+    />
+    <Switch />
+  </Component>
 </Component>
 `;
