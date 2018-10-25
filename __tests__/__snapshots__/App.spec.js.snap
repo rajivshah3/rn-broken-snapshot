@@ -11,7 +11,10 @@ exports[`when rendering should match the snapshot 1`] = `
     }
   }
 >
-  <Component
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
     style={
       Object {
         "fontSize": 20,
@@ -21,8 +24,11 @@ exports[`when rendering should match the snapshot 1`] = `
     }
   >
     Welcome to React Native!
-  </Component>
-  <Component
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
     style={
       Object {
         "color": "#333333",
@@ -32,8 +38,11 @@ exports[`when rendering should match the snapshot 1`] = `
     }
   >
     To get started, edit App.js
-  </Component>
-  <Component
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
     style={
       Object {
         "color": "#333333",
@@ -44,6 +53,6 @@ exports[`when rendering should match the snapshot 1`] = `
   >
     Press Cmd+R to reload,
 Cmd+D or shake for dev menu
-  </Component>
+  </Text>
 </Component>
 `;
